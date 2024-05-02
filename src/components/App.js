@@ -23,7 +23,7 @@ function App() {
         return resp.json();
       })
       .then((data) => {
-        const allData = data.slice(50, 93);
+        const allData = data.slice(20, 63);
         setEmojis(allData);
         setDisplayedEmojis(data.slice(0, 9));
       })
